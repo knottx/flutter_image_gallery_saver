@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Pigeon",
+      "type": "shell",
+      "group": "build",
+      "command": "dart",
+      "args": [
+        "run",
+        "pigeon",
+        "--input",
+        "pigeons/image_gallery_saver_api.dart"
+      ]
+    }
+  ]
+}
