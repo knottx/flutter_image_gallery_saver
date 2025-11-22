@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Update dart format.
+
 ## 1.1.0
 
 - Update minimum sdk.

@@ -1,5 +1,9 @@
 include: package:flutter_lints/flutter.yaml
 
+formatter:
+  page_width: 80
+  trailing_commas: preserve
+
 linter:
   rules:
     always_use_package_imports: true
@@ -14,8 +18,8 @@ linter:
     prefer_is_not_operator: true
     prefer_single_quotes: true
     require_trailing_commas: true
+    unnecessary_breaks: true
     unnecessary_overrides: false
-    avoid_function_literals_in_foreach_calls: false
     unrelated_type_equality_checks: true
 
 analyzer:
@@ -35,6 +39,7 @@ analyzer:
     prefer_is_not_operator: error
     prefer_single_quotes: error
     require_trailing_commas: error
+    unnecessary_breaks: error
     unrelated_type_equality_checks: error
     unused_element: error
     unused_local_variable: error
