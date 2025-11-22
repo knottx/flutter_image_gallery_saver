@@ -37,6 +37,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Center(
         child: Column(
+          spacing: 8,
           children: [
             Image.asset('assets/images/Icon-App.png'),
             FilledButton(

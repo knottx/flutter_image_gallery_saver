@@ -1,6 +1,7 @@
 ## 1.0.0
 
 - Updates to Pigeon 26.
+- Updates to Gradle 8.9.1
 
 ## 0.0.2
 

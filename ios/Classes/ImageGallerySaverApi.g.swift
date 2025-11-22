@@ -88,7 +88,6 @@ class ImageGallerySaverApiPigeonCodec: FlutterStandardMessageCodec, @unchecked S
 
 /// Generated protocol from Pigeon that represents a handler of messages from Flutter.
 protocol ImageGallerySaverApi {
-  /// Save image to gallery
   func saveImage(imageBytes: FlutterStandardTypedData, completion: @escaping (Result<Void, Error>) -> Void)
   func saveFile(filePath: String, completion: @escaping (Result<Void, Error>) -> Void)
 }
@@ -99,7 +98,6 @@ class ImageGallerySaverApiSetup {
   /// Sets up an instance of `ImageGallerySaverApi` to handle messages through the `binaryMessenger`.
   static func setUp(binaryMessenger: FlutterBinaryMessenger, api: ImageGallerySaverApi?, messageChannelSuffix: String = "") {
     let channelSuffix = messageChannelSuffix.count > 0 ? ".\(messageChannelSuffix)" : ""
-    /// Save image to gallery
     let saveImageChannel = FlutterBasicMessageChannel(name: "dev.flutter.pigeon.flutter_image_gallery_saver.ImageGallerySaverApi.saveImage\(channelSuffix)", binaryMessenger: binaryMessenger, codec: codec)
     if let api = api {
       saveImageChannel.setMessageHandler { message, reply in

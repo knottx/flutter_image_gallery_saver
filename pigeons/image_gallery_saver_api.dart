@@ -15,7 +15,6 @@ import 'package:pigeon/pigeon.dart';
 )
 @HostApi()
 abstract class ImageGallerySaverApi {
-  /// Save image to gallery
   @async
   void saveImage(Uint8List imageBytes);
 

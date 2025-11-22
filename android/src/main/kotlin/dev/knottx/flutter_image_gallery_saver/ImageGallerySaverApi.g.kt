@@ -59,7 +59,6 @@ private open class ImageGallerySaverApiPigeonCodec : StandardMessageCodec() {
 
 /** Generated interface from Pigeon that represents a handler of messages from Flutter. */
 interface ImageGallerySaverApi {
-  /** Save image to gallery */
   fun saveImage(imageBytes: ByteArray, callback: (Result<Unit>) -> Unit)
   fun saveFile(filePath: String, callback: (Result<Unit>) -> Unit)
 
