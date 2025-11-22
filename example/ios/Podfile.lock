@@ -4,15 +4,14 @@ PODS:
     - Flutter
   - integration_test (0.0.1):
     - Flutter
-  - path_provider_foundation (0.0.1):
+  - objective_c (0.0.1):
     - Flutter
-    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_image_gallery_saver (from `.symlinks/plugins/flutter_image_gallery_saver/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
-  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - objective_c (from `.symlinks/plugins/objective_c/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
@@ -21,15 +20,15 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_image_gallery_saver/ios"
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
-  path_provider_foundation:
-    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  objective_c:
+    :path: ".symlinks/plugins/objective_c/ios"
 
 SPEC CHECKSUMS:
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_image_gallery_saver: f356b5f265ba4e36f38b2fe96d0468e0712a6b37
   integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
-  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  objective_c: 77e887b5ba1827970907e10e832eec1683f3431d
 
-PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+PODFILE CHECKSUM: 4f1c12611da7338d21589c0b2ecd6bd20b109694
 
 COCOAPODS: 1.16.2

@@ -27,33 +27,23 @@ Add the following key to your Info.plist to allow the plugin to save images to t
 ### Import the Package
 
 ```dart
-import 'package:flutter_image_gallery_saver/flutter_image_gallery_saver.dart';
-```
-
-### Saving an Image
-
-```dart
 import 'dart:typed_data';
 import 'package:flutter_image_gallery_saver/flutter_image_gallery_saver.dart';
 
+final imageSaver = ImageGallerySaver();
+
 Future<void> saveImageExample(Uint8List imageBytes) async {
   try {
-    await FlutterImageGallerySaver.saveImage(imageBytes);
+    await imageSaver.saveImage(imageBytes);
     print('Image saved successfully!');
   } catch (e) {
     print('Error saving image: $e');
   }
 }
-```
-
-### Saving a File
-
-```dart
-import 'package:flutter_image_gallery_saver/flutter_image_gallery_saver.dart';
 
 Future<void> saveFileExample(String filePath) async {
   try {
-    await FlutterImageGallerySaver.saveFile(filePath);
+    await imageSaver.saveFile(filePath);
     print('File saved successfully!');
   } catch (e) {
     print('Error saving file: $e');

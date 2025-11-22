@@ -27,6 +27,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final imageSaver = ImageGallerySaver();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,7 +62,7 @@ class _HomePageState extends State<HomePage> {
       final data = await rootBundle.load('assets/images/Icon-App.png');
       final bytes = data.buffer.asUint8List();
 
-      await FlutterImageGallerySaver.saveImage(bytes);
+      await imageSaver.saveImage(bytes);
 
       showSuccessSnackBar();
     } catch (error) {
@@ -78,7 +80,7 @@ class _HomePageState extends State<HomePage> {
       final file = File(filePath);
       file.writeAsBytesSync(bytes);
 
-      await FlutterImageGallerySaver.saveFile(filePath);
+      await imageSaver.saveFile(filePath);
 
       showSuccessSnackBar();
     } catch (error) {
@@ -96,7 +98,7 @@ class _HomePageState extends State<HomePage> {
       final file = File(filePath);
       file.writeAsBytesSync(bytes);
 
-      await FlutterImageGallerySaver.saveFile(filePath);
+      await imageSaver.saveFile(filePath);
 
       showSuccessSnackBar();
     } catch (error) {

@@ -33,7 +33,7 @@ analyzer:
     prefer_is_empty: error
     prefer_is_not_empty: error
     prefer_is_not_operator: error
-    prefer_single_quotes: error 
+    prefer_single_quotes: error
     require_trailing_commas: error
     unrelated_type_equality_checks: error
     unused_element: error
