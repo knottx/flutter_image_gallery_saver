@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Update minimum sdk.
+
 ## 1.0.0
 
 - Updates to Pigeon 26.
