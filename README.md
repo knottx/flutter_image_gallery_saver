@@ -11,7 +11,7 @@ Flutter Image Gallery Saver is a Flutter plugin that provides a simple API for s
 
 ### Android
 
-No additional configuration is usually required. However, ensure that your app has the necessary permissions to write to external storage. The plugin handles most permissions, but you may need to adjust your AndroidManifest.xml for Android 6.0 and above if you encounter any issues.
+No additional configuration is usually required. However, ensure that your app has the necessary permissions to write to external storage. The plugin handles most permissions, but you may need to adjust your AndroidManifest.xml for Android 7.0 and above if you encounter any issues.
 
 ### iOS
 
