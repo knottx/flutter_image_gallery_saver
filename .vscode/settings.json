@@ -5,4 +5,6 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
+    "dart.flutterSdkPath": "C:\\Users\\frosterlolz\\.puro\\envs\\stable\\flutter",
+    "dart.sdkPath": "C:\\Users\\frosterlolz\\.puro\\envs\\stable\\flutter\\bin\\cache\\dart-sdk"
 }

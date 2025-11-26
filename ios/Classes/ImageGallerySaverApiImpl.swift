@@ -67,7 +67,7 @@ class ImageGallerySaverApiImpl: ImageGallerySaverApi {
       } else {
         let nsError = self.makeError(
           code: "SAVE_FAILED",
-          message: "Unknown error while saving image file", 
+          message: "Unknown error while saving image file"
         )
         completion(.failure(nsError))
       }
