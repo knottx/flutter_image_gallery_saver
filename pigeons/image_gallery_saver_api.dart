@@ -9,7 +9,8 @@ import 'package:pigeon/pigeon.dart';
     ),
     kotlinOut:
         'android/src/main/kotlin/dev/knottx/flutter_image_gallery_saver/ImageGallerySaverApi.g.kt',
-    swiftOut: 'ios/Classes/ImageGallerySaverApi.g.swift',
+    swiftOut:
+        'ios/flutter_image_gallery_saver/Sources/flutter_image_gallery_saver/ImageGallerySaverApi.g.swift',
     swiftOptions: SwiftOptions(),
   ),
 )

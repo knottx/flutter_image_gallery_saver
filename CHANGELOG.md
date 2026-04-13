@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Swift Package Manager
+
 ## 1.1.3
 
 - Update example
